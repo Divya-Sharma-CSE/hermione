@@ -1,5 +1,5 @@
 This file contains questions I had while building this project, along with what I tried, and what I learned and useful tips. 
 
 -----
-
+- Use of `display:line-block` 
 - ❓ How to make text appear in when scrolling down?<br/>
