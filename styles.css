@@ -19,11 +19,16 @@
 }
 
 .hero h1{
-    margin-top: ;
     font-family: "Cormorant", serif;
     font-size: 7rem;
     font-weight: 400;
+    animation: rise-in 3s;
 }
+
+    @keyframes rise-in {
+        
+        
+    }
 
 .hero p{
     font-family: "Caveat", cursive;
