@@ -52,7 +52,7 @@
 
 /* QUOTE PAGE */
 .quote{
-    background-color: #E6D5B8;
+    background-color: #e3d8c1;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -61,6 +61,7 @@
 
 .quote p{
     font-family: "Alan Sans", sans-serif;
+    color: #260f06;
     font-size: 3rem;
     font-weight: 300;
     text-align: center;
@@ -69,42 +70,53 @@
 
 /* ABOUT HER PAGE */
 .about{                                           /*styling of the whole page*/
-    background-color: #f2d7d5;
+    background-color: #895737;
     min-height: 100vh;
-    display:flex;
-    flex-direction: row;
+    align-items: center;
+    display: flex;
     justify-content: center;
     align-items: center;
+}
 
-}
 .about-content{                             /*separation of content to add border and outline to the content div*/
-    margin:3em;
-    padding: 3rem;
+    margin:3rem;
+    padding: 5rem;
     box-sizing: border-box;
-    border: 4px solid #7b1113 ;
-    outline: 4px solid #7b1113 ;
+    border: 3px solid #4c2b08 ;
+    outline: 3px solid #4c2b08 ;
     outline-offset: 10px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1600px;
 }
+
 
 .about .img{
     width: 400px;
     height:400px;
+    align-self: center;
 }
 
 .about img{
+    margin-left: 3rem;
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    border: 8px solid #d4af37;
+    border: 8px solid #b99268;
     object-fit: cover;
 }
 
 .about .heading{
+    font-family: "Playfair Display", sans-serif;
     font-size: 2rem;
-    color: #7b1113;
-    margin-bottom:1rem;
+    color: #fbf5e9;
+    margin-bottom:2rem;
+    text-align: center;
 }
 
+
 .about p{
+    font-family:"Inter",serif ;
     font-size: 2rem;
+    color:#d7c7bf;
 }
