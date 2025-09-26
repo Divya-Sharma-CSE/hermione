@@ -1,0 +1,7 @@
+This file contains questions I had while building this project, along with what I tried, and what I learned and useful tips. 
+
+-----
+- Use of `display: line-block` on span content?<br/>
+it’s the right choice for animating letters or words while keeping them aligned in a line.<br/><br/>
+
+- ❓ How to make text appear in when scrolling down?<br/>
