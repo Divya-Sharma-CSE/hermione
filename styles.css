@@ -120,3 +120,19 @@
     font-size: 2rem;
     color:#d7c7bf;
 }
+
+
+/* GALLERY */
+.gallery{
+    background-color: #340b00;
+    min-height: 100vh;
+}
+
+.gallery .heading{
+    font-family:"Great Vibes", cursive;
+    font-size:4rem;
+    color:#fffef2;
+    padding-top: 3rem;
+    text-align: center;
+    align-self: center;
+}
