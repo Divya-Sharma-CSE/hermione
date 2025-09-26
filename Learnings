@@ -5,5 +5,24 @@ This file contains questions I had while building this project, along with what 
 it’s the right choice for animating letters or words while keeping them aligned in a line.<br/><br/>
 
 - ❓ How to make text appear in when scrolling down?<br/>
+Too much JS- beyond my level of understanding right now<br/>
+Animated text-Had to use vanilla JS--> notes made in register <br/><br/>
 
-- ❓ How to get two borders? (preferably one shifted from the other)
+- ❓ How to get two borders? (preferably one shifted from the other)<br/>
+Couldn't figure out two borders shifted with top and left offset<br/>
+But learnt to use:<br/>
+<dl>
+    <dt type='square'> `border` </dt>
+        <dd>border of the element </dd>
+    <dt type='square'> `outline` </dt>
+        <dd>the outside border, does not affect the doc by not taking any space, border-radius--> not applicable </dd>
+    <dt type='square'> `outline-offset` </dt>
+        <dd>space between the border and outline</dd>
+</dl> <br/><br/>
+
+- ❓Image in a round border?<br/>
+create a div `<div class="img">` - set the width and height (equal) of the element contained in div (the size of the image u want in the page)<br/>
+apply styles on the `<img>`- set `border-radius:50%`, border (DON'T FORGET TO SPECIFY SOLID), wdith and height as 100%, and `object-fit`. <br/><br/>
+
+
+
