@@ -24,5 +24,8 @@ But learnt to use:<br/>
 create a div `<div class="img">` - set the width and height (equal) of the element contained in div (the size of the image u want in the page)<br/>
 apply styles on the `<img>`- set `border-radius:50%`, border (DON'T FORGET TO SPECIFY SOLID), wdith and height as 100%, and `object-fit`. <br/><br/>
 
+- Online sources suggested using linear gradient as a divider<br/>
+`background: linear-gradient(to right, #d4af37, #5c4033, #d4af37);` set margin, height !!<br/><br/>
 
+- 
 
