@@ -122,6 +122,31 @@
 }
 
 
+ /* RESPONSIVE ABOUT HER PAGE */
+
+ @media (max-width: 1100px) {   /* 110px because around that size the text and the image start to overlap */
+  .about-content {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .about .img {
+    transform: translatex(-30px);
+    width: 300px;
+    height:300px;
+    align-self: left;
+    margin-bottom: 20px;
+  }
+
+  .about h2 {
+    font-size: 2rem;
+  }
+}
+
+
 /* GALLERY */
 .gallery-page{
     background-color: #340b00;
