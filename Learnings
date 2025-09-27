@@ -27,5 +27,6 @@ apply styles on the `<img>`- set `border-radius:50%`, border (DON'T FORGET TO SP
 - Online sources suggested using linear gradient as a divider<br/>
 `background: linear-gradient(to right, #d4af37, #5c4033, #d4af37);` set margin, height !!<br/><br/>
 
-- 
+- ❓an arrow on gallery section to ask the user to hover over an element and see the effects?<br/>
+just added another `div` for arrow, its text and the gallery images- to be able to space the two things, and make that `div` a  `flex` container.<br/><br/>
 
