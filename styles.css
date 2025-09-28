@@ -213,7 +213,7 @@
     width:200px;
     height: 500px;
     border-radius: 8px;
-    transition:object-fit 0.5s ease-in-out; box-shadow 0.5s ease-in-out;
+    transition:object-fit 0.5s, box-shadow 0.5s ease-in-out;
     cursor: pointer;
     z-index: 0;
     overflow: hidden;
@@ -229,5 +229,79 @@
     box-shadow: 0 15px 25px 0 rgba(0,0,0,0.5);
 }
 
+
+/* Detailed Biography */
+.biography {
+    background-color: #e5d8bd;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+.biography .heading{
+    font-family:'Cinzel', 'sans-serif';
+    font-size: 3.5rem;
+    color:#282119;
+    text-shadow: 0 0 4px #dcb589;
+    padding-top: 3.5rem;
+    justify-self: center;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+    justify-self: center;
+    gap:50px;
+    padding: 5rem 0;
+}
+
+.drop-cap::first-letter {
+    font-size: 5rem;
+    float: left;
+    color: #8b5e3c;
+    font-weight: bold;
+    font-family: 'Cinzel display', serif;
+    line-height: 1;
+    margin-right: 8px;
+}
+.drop-cap, .biography p {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1.5rem;
+    color: #3b2e2a;
+}
+
+
+.biography .left,.right{
+    font-family: "Cormorant Garamond", serif;
+    font-size:1.2rem;
+    color: #3b2e2a;
+    max-width:500px;
+}
+
+/* characters */
+.g {
+    color: #a51c30; /* Deep Gryffindor red */
+    text-shadow: 0 0 8px #ffc94d; /* soft gold glow only */
+}
+
+.h{
+    color: #b76e25; /* Warm bronze-gold */
+    text-shadow: 0 0 8px #f7c873; /* soft warm glow */
+}
+
+.gr{
+    color: #2e8b57; /* Slytherin green */
+    text-shadow: 0 0 8px #b0f0dc; /* soft silver-green glow */
+}
+
+.h_r{
+    color: #7b2900; /* Deep warm reddish-brown */
+    text-shadow: 0 0 8px #ffd700; /* golden glow */
+}
+
+.v{
+    color: #2c2c2c; /* Dark gray-black */
+    text-shadow: 0 0 8px #2a582a; /* eerie pale green glow */
+}
 
 
