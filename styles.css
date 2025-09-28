@@ -98,7 +98,6 @@
 }
 
 .about img{
-    margin-left: 3rem;
     width: 100%;
     height: 100%;
     border-radius: 50%;
@@ -246,7 +245,7 @@
     justify-self: center;
 }
 
-.content{
+.biography .content{
     display: grid;
     grid-template-columns: 1fr 1fr;
     max-width: 1200px;
