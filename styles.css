@@ -336,3 +336,31 @@ html{
     color:#FFC107;
 }
 
+
+
+/* FUN FACTS */
+.factpage{
+    background-color: #b49e8f;
+    min-height: 100vh;
+}
+
+.factpage .heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top:3rem;
+}
+.factpage .head{
+    font-family: "Shadows Into Light Two", cursive;
+    font-size:3rem;
+    letter-spacing: 2px;
+    color: #5e4b3c;
+}
+
+.factpage .punch{
+    font-family: "Englebert", cursive;
+    font-size: 2rem;
+    color:#8a5a6f;
+    padding-top: 1rem;
+}
