@@ -30,3 +30,11 @@ apply styles on the `<img>`- set `border-radius:50%`, border (DON'T FORGET TO SP
 - ❓an arrow on gallery section to ask the user to hover over an element and see the effects?<br/>
 just added another `div` for arrow, its text and the gallery images- to be able to space the two things, and make that `div` a  `flex` container.<br/><br/>
 
+- ❓How to have a smooth scroll to different sections of webpage<br/>
+In CSS type
+```html { 
+    scroll-behaviour:smooth; 
+} ```
+
+
+
