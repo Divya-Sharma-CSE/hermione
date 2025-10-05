@@ -281,6 +281,17 @@ html{
     max-width:500px;
 }
 
+ @media (max-width: 1100px) {  
+  .biography .heading{
+    justify-content: centre;
+    text-align: center;
+  }
+
+  .biography .content{
+    margin:auto 1rem auto 1rem;
+  }
+}
+
 /* characters */
 .g {
     color: #a51c30; /* Deep Gryffindor red */
@@ -350,7 +361,7 @@ html{
     justify-content: center;
     align-items: center;
     padding-top:3rem;
-    margin-bottom: 4rem;
+    margin-bottom: 5rem;
 }
 .factpage .head{
     font-family: "Shadows Into Light Two", cursive;
@@ -368,60 +379,64 @@ html{
 
 .facts_content{
     display: grid;
-    grid-template-rows: repeat(3,1fr);
-    max-width: 1400px;
-    gap:2rem;
+    max-width: 1300px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
     justify-items: center;
     align-content: center;
+    text-align: center;
+    margin:auto 4rem auto 4rem;
 }
 
- .fact, .flip_c{
-    margin:1rem auto;
-    padding:10px;
+ .fact, .flip_card{
+    margin-bottom:2rem;
+    padding:30px;
     text-align: center;
-    width:80%;
+    width:300px;
+    height:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background:#f3e9dc ;
     border:2px solid #7b1e1e;
     color: #3e1f1f;
-    border-radius: 20%;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    font-size: 0.95rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    font-size: 1.3rem;
     font-family: 'Alan Sans', serif;
 }
 
-.facts_content h2{
+.facts_content h2,h3{
     font-family: 'Cinzel', 'sans-serif';
-    font-size:1.5rem;
+    font-size:2rem;
     color: #5e4b3c;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.content1,.content2 h2{
+    margin-bottom: 1.1rem;
+}
+
+.facts_content h3{
+    font-size:1rem;
+}
+
 .flip_card{
-    margin:1rem auto;
-    padding:10px;
-    text-align: center;
-    width:80%;
     transform-style: preserve-3d;
     transition: transform 0.5s;
 }
-
 .front, .back{
-    background:#f3e9dc ;
-    border:2px solid #7b1e1e;
-    color: #3e1f1f;
-    border-radius: 20%;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    font-size: 2rem;
-    font-family: 'Alan Sans', serif;
+    backface-visibility: hidden;
 }
 
 .flip_card:hover{
-    transform: rotateY('180deg');
+    transform: rotateY(180deg);
 }
 
 .back{
-    transform: rotateY('180deg');
+    transform: rotateY(180deg);
 }
 

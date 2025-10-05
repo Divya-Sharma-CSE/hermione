@@ -39,8 +39,10 @@ In CSS type
 <br/><br/>
 
 -❓ How to do a flip animation?<br/>
-!! Use `transform-style:preserve-3d` on the main box/container which will rotate so that the content of the front side doesn't show or glitch, and gets hidden on rotating completely.<br/>
-There are two sides `.front` and `.back` - both of which need to undergo a transition of rotating.<br/><br/>
+!! Use `transform-style:preserve-3d` and `transition` on the main box/container which will rotate so that the content of the front side doesn't show up or glitch, and gets hidden on rotating completely.<br/>
+There are two sides `.front` and `.back` - both of which need to undergo a transition of rotating <br/>
+Use `backface-visibilty:hidden;` in the styling for both .front and .back
+<br/><br/>
 
 - on setting `grid-template-rows:repeat(3,1fr)` on .facts_content, i.e content1,2 and 3, i get a vertical columns with the facts and the corresponding heading as rows taking up the max-width.
 
