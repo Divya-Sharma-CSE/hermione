@@ -350,6 +350,7 @@ html{
     justify-content: center;
     align-items: center;
     padding-top:3rem;
+    margin-bottom: 4rem;
 }
 .factpage .head{
     font-family: "Shadows Into Light Two", cursive;
@@ -364,3 +365,63 @@ html{
     color:#8a5a6f;
     padding-top: 1rem;
 }
+
+.facts_content{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    max-width: 1400px;
+    gap:2rem;
+    justify-items: center;
+    align-content: center;
+}
+
+ .fact, .flip_c{
+    margin:1rem auto;
+    padding:10px;
+    text-align: center;
+    width:80%;
+    background:#f3e9dc ;
+    border:2px solid #7b1e1e;
+    color: #3e1f1f;
+    border-radius: 20%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    font-size: 0.95rem;
+    font-family: 'Alan Sans', serif;
+}
+
+.facts_content h2{
+    font-family: 'Cinzel', 'sans-serif';
+    font-size:1.5rem;
+    color: #5e4b3c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flip_card{
+    margin:1rem auto;
+    padding:10px;
+    text-align: center;
+    width:80%;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+}
+
+.front, .back{
+    background:#f3e9dc ;
+    border:2px solid #7b1e1e;
+    color: #3e1f1f;
+    border-radius: 20%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    font-size: 2rem;
+    font-family: 'Alan Sans', serif;
+}
+
+.flip_card:hover{
+    transform: rotateY('180deg');
+}
+
+.back{
+    transform: rotateY('180deg');
+}
+
