@@ -281,7 +281,7 @@ html{
     max-width:500px;
 }
 
- @media (max-width: 1100px) {  
+@media (max-width: 1100px) {  
   .biography .heading{
     justify-content: centre;
     text-align: center;
@@ -377,7 +377,21 @@ html{
     padding-top: 1rem;
 }
 
+@media (max-width: 1000px) {  
+    .facts_content{
+        grid-template-columns: repeat(2,1fr);
+  }
+}
+
+@media (max-width:600px){
+    .facts_content{
+        grid-template-columns: 1fr;
+    }
+}
+
+
 .facts_content{
+    margin: auto;
     display: grid;
     max-width: 1300px;
     display: grid;
@@ -386,18 +400,14 @@ html{
     justify-items: center;
     align-content: center;
     text-align: center;
-    margin:auto 4rem auto 4rem;
+
 }
 
  .fact, .flip_card{
     margin-bottom:2rem;
     padding:30px;
-    text-align: center;
-    width:300px;
-    height:200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width:320px;
+    height:220px;
     background:#f3e9dc ;
     border:2px solid #7b1e1e;
     color: #3e1f1f;
@@ -405,9 +415,13 @@ html{
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     font-size: 1.3rem;
     font-family: 'Alan Sans', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.facts_content h2,h3{
+
+.facts_content h2{
     font-family: 'Cinzel', 'sans-serif';
     font-size:2rem;
     color: #5e4b3c;
@@ -416,11 +430,11 @@ html{
     align-items: center;
 }
 
-.content1,.content2 h2{
+.content1 h2, .content2 h2{
     margin-bottom: 1.1rem;
 }
 
-.facts_content h3{
+.facts_content .flip_to_find{
     font-size:1rem;
 }
 
@@ -430,6 +444,9 @@ html{
 }
 .front, .back{
     backface-visibility: hidden;
+    position: absolute;
+    padding:20px;
+    font-size: 1.2rem;
 }
 
 .flip_card:hover{
