@@ -52,6 +52,8 @@ Then set `display:flex` and the desired alignment properties on the flipcard con
 
 - Use `margin:auto` on grid container to horizontally center align the grid<br/><br/>
 
+- ❗❗ Setting max-width on one of the items then aligning the parent container will not give the alignment as desired<br/><br/>
+
 - 
 
 
