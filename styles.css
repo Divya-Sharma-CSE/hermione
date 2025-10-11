@@ -461,9 +461,9 @@ html{
 /* FOOTER */
 .footer {
     background: radial-gradient(circle at top, #e4dfd8 0%, #d5cec4 100%);
-    border-top: 2px solid rgba(75, 46, 5, 0.4);
-    box-shadow: inset 0 0 30px  rgba(0, 0, 0, 0.3);
+    border: 2px inset rgba(75, 46, 5, 0.4);
     padding:2rem 4rem;
+    font-family:'Cinzel', 'sans-serif';
     color:#3e1f00;
 }
 
@@ -472,20 +472,39 @@ html{
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    gap:2.5rem;
 }
 
 .footer .heading{
-    text-align: center;
+    align-items: center;
 }
 
 .footer .heading h1{
-    font-family:'Cinzel', 'sans-serif';
     font-size: 1.5rem;
+    padding-bottom:0.8rem;
 }
 
 .footer .heading p{
     font-family: 'Crimson Text', serif;
     font-size:1rem;
-    max-width:700px;
+}
+
+.footer .columns{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:3rem;
+    font-size:1.2rem;
+}
+
+.footer .column h1{
+    font-size:1.2rem;
+    border-bottom: 1px solid #260f068e;
+    padding-bottom: 0.5rem;
+    display: inline-block;
+}
+
+.footer .column p{
+    font-family: 'Crimson Text', serif;
+    font-size:1rem;
 }
 
