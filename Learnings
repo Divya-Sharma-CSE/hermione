@@ -2,7 +2,8 @@ This file contains questions I had while building this project, along with what 
 
 -----
 - Use of `display: inline-block` on span content?<br/>
-it’s the right choice for animating letters or words while keeping them aligned in a line.<br/><br/>
+it’s the right choice for animating letters or words while keeping them aligned in a line.<br/>
+Also used to animate just the text inside its box.<br/><br/>
 
 - ❓ How to make text appear in when scrolling down?<br/>
 Too much JS- beyond my level of understanding right now<br/>
